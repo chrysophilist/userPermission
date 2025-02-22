@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             UserPermissionTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Permission()
+                    Permission2()
                 }
             }
         }
